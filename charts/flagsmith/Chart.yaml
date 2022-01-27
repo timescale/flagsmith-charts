@@ -1,8 +1,8 @@
 apiVersion: v2
-name: flagsmith
-description: Flagsmith
+name: timescale-flagsmith
+description: Flagsmith Helm chart for Timescaledb
 type: application
-version: 0.5.1
+version: 0.1.0
 appVersion: 2.9.4
 dependencies:
   - name: postgresql

@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  timescale-flagsmith:
+  - apiVersion: v2
+    appVersion: 2.9.4
+    created: "2022-01-27T16:41:57.024725-06:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.helm.sh/stable
+      version: 8.6.4
+    - condition: influxdb2.enabled
+      name: influxdb2
+      repository: https://helm.influxdata.com/
+      version: 2.0.0
+    description: Flagsmith Helm chart for Timescaledb
+    digest: 1e46485679ea31ac348f90bf3679e8094c653ab627aca81f0f867919a9a91582
+    icon: https://docs.flagsmith.com/img/square-icon.png
+    name: timescale-flagsmith
+    type: application
+    urls:
+    - timescale-flagsmith-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-01-27T16:41:57.019266-06:00"
